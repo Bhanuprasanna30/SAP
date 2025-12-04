@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>My Resume</title>
+
+<style>
+
+header {
+background-color: blue;
+color: white;
+text-align:center;
+}
+
+header h1 {
+font-size: 50px;
+}
+nav{
+background-color:green;
+padding: 10px 0;
+text-align:center;
+}
+
+nav a{
+color: white;
+margin: 0 15px;
+}
+
+
+body {
+background-color: grey;
+}
+
+.container{
+max-width: 900px;
+margin: 20px auto;
+background-color: white;
+padding: 20px;
+border-radius: 6px;
+}
+
+section{
+margin-bottom: 30px;
+}
+
+h2{
+color: #0D6360;
+}
+
+.about-wrapper{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+align-items: center;
+}
+
+.about-wrapper img {
+width: 140px;
+height: 140px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+table{
+
+width: 85%;
+margin: auto;
+border-collapse : collapse;
+}
+
+th{
+background-color: blue;
+color:white;
+
+}
+
+th,td{
+
+border : 1px solid;
+
+}
+
+td{
+
+text-align:center
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+<!--Head-->
+
+<header>
+<h1>BHANUPRASANNA</h1>
+<p>Aspiring SAP BTP & FIORI DEVELOPER</p>
+</header>
+
+<nav>
+<a href="#about">ABOUT</a>
+<a href="#education">EDUCATION</a>
+<a href="#projects">PROJECTS</a>
+<a href="#contact">CONTACT FORM</a>
+</nav>
+
+<!--Body-->
+
+<main class="container">
+
+<!--About section-->
+<section id="about">
+<h2>ABOUT</h2>
+<div class="about-wrapper">
+
+<img src="C:\Users\bhanu\Downloads\IMG20231216163722.jpg"></img>
+
+<div class="about-text">
+<p>An SAP consultant is a technical expert who assists businesses in managing productivity by aligning the SAP system's functions with their processes. They provide technical support, advise on system integration, and help with system configuration for SAP solutions. Additionally, SAP consultants design and implement solutions based on client needs, conduct training sessions, and troubleshoot issues.</p>
+</div>
+</div>
+
+
+</section>
+
+<!--education section-->
+<section id="education">
+<h2>EDUCATION</h2>
+<table border = 1>
+<tr>
+	<th>S.no</th>
+	<th>Schooling</th>
+	<th>Type</th>
+	<th>Subject</th>
+	<th>Percentage</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>ZP Girls high school</td>
+	<td>Government</td>
+	<td>Secondary Education</td>
+	<td>90%</td>
+</tr>
+
+<tr>
+	<td>2</td>
+	<td>sri MedhaVi Jr College</td>
+	<td>Private</td>
+	<td>Intermediate</td>
+	<td>68%</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>CIET</td>
+	<td>Private</td>
+	<td>B-tech</td>
+	<td>69%</td>
+</tr>
+
+</table>
+</section>
+
+<!--Projects section-->
+<section id="Projects">
+<h2>PROJECTS</h2>
+<div class="project-section">
+  <p class="project-title"><h3><b>Elegant-shopping-store:</b></h3></p>
+  <ul>
+    <li>Engineered a responsive e-commerce frontend using React.js with modular, reusable components for scalability.</li>
+    <li>Implemented secure user authentication and session management via Firebase Authorization to ensure reliability.</li>
+    <li>Designed and integrated dynamic product listing, cart functionality, and routing with React Router for seamless navigation.</li>
+    <li>Utilized Firebase Firestore for real-time database operations, enabling instant updates to inventory and user actions.</li>
+    <li>Deployed globally on Netlify CDN, achieving fast load times, high availability, and optimized user experience.</li>
+  </ul>
+</div>
+<div class="project-section">
+  <p class="project-title"><h3><b>SAP BTP Cloud Project:</b></h3></p>
+  <ul>
+    <li>Designed and deployed business workflows on SAP Business Technology Platform (BTP), integrating process automation with enterprise applications.</li>
+    <li>Implemented SAP Build Process Automation to streamline approvals, notifications, and task assignments, reducing manual effort.</li>
+    <li>Leveraged SAP Integration Suite for connecting cloud services with on-premise systems, ensuring seamless data flow.</li>
+    <li>Developed UI dashboards and forms using SAP Build Apps, enabling user-friendly interaction with automated processes.</li>
+    <li>Applied role-based access control and security best practices, ensuring compliance and reliability in cloud operations.</li>
+  </ul>
+</div>
+<div class="project-section">
+ <p class="project-title"><h3><b>Real-Quiz-World:</b></h3></p>
+ <ul>
+   <li>Developed a user-friendly quiz application where users can attempt quizzes on multiple topics with real-time scoring.</li>
+<li>Implemented add/update/delete features for questions, allowing easy quiz customization by the admin.</li>
+<li>Integrated countdown timer functionality to simulate real exam conditions and improve user engagement.</li>
+<li>Added detailed scorecards showing correct answers, wrong answers, percentage, and time taken for each quiz.</li>
+<li>Created secure login/sign-up system enabling users to track their progress and attempt quizzes anytime.</li>
+</ul>
+</div>
+</section>
+
+<!--Contact form section-->
+<section id="contact">
+<h2>CONTACT FORM</h2>
+<form>
+<label>Name:</label>
+<input type="Name"> <br><br>
+
+<label>Email:</label>
+<input type="Email"> <br><br>
+
+<label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your reason here..."></textarea><br><br>
+
+  <input type="submit" value="Submit">
+
+
+</form>
+</section>
+
+</main>
+
+<!--Footer-->
+
+</body>
+</html>
